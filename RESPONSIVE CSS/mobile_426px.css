@@ -1,0 +1,222 @@
+/* <<< === MOBILE LARGE :- 426PX SCREEN SIZE === >>> */
+
+@media only screen and (max-width: 426px) {
+
+    /* -- === == Hide == === -- */
+    .header_hide,
+    .footer_hide,
+    .slider_hide {
+        display: none;
+    }
+
+    /* -- === == Show == === -- */
+    .mobile_header_hide,
+    .mobile_footer_hide,
+    .slider_mobile_hide {
+        display: block;
+    }
+
+    /* -- === <<< == HEADER == >>> === -- */
+    .mobile_header_full_width {
+        width: 100%;
+        background: white;
+        height: 65px;
+    }
+
+    .mobile_header_fix_width {
+        max-width: 90%;
+        background: white;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .mobile_header_content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+    }
+
+    .mobile_header_logo {
+        width: 37%;
+    }
+
+    .m0bile_header_logo_brand_name {
+        width: 100%;
+        margin-top: 2px;
+    }
+
+    .mobile_humburger_menu .fa-bars {
+        font-size: 23px;
+        margin-top: -5px;
+        color: #9f2d91;
+        transition: 0.3s;
+    }
+
+    .mobile_humburger_menu .fa-bars:hover {
+        color: #242e6b;
+    }
+
+    .mob_navbar_bg {
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        overflow-x: hidden;
+        top: 0;
+        display: block;
+        width: 0;
+        list-style: none;
+        z-index: 1;
+    }
+
+    .mobile_navlist {
+        background: white;
+        width: 260px;
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        overflow-x: hidden;
+        top: 0;
+        display: block;
+        width: 0;
+        transition: 0.3s;
+        list-style: none;
+    }
+
+    .mobile_navlist li {
+        padding: 15px 15px;
+    }
+
+    .mobile_navlist li a {
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 700;
+        margin: 2px 4px;
+        color: #024397;
+        position: relative;
+        top: 90px;
+    }
+
+    .fa-xmark {
+        position: absolute;
+        top: 17px;
+        left: 221px;
+        font-size: 20px;
+        color: #024397;
+        transition: 0.1s;
+    }
+
+    .fa-xmark:hover {
+        color: #fa0002;
+    }
+
+    .navbar_mob_img {
+        width: 130px;
+        position: absolute;
+        top: 347px;
+        left: 27px;
+    }
+
+    /* -- === <<< == HEADER END== >>> === -- */
+    
+    
+    /* -- === == Our Services == === -- */
+
+    .services_fix_width {
+        max-width: 95%;
+    }
+
+    .services_content {
+        overflow: auto;
+    }
+
+    .ser_web_bd {
+        min-width: 100%;
+    }
+    /* -- === == Our Services End == === -- */
+
+
+    /* -- === <<< == FOOTER == >>> === -- */
+    .mob_footer_full_width {
+        width: 100%;
+        background: #242e6b;
+        padding-bottom: 22%;
+        margin-top: 50px;
+    }
+
+    .mob_footer_fix_width {
+        max-width: 90%;
+        background: #242e6b;
+        margin: 0 auto;
+    }
+
+    .mob_footer_contant {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mob_fnav_box_one {
+        position: relative;
+        top: 30px;
+        bottom: 50px;
+    }
+
+    .mob_about_btn {
+        background: none;
+        color: white;
+        border: none;
+        padding: 18px;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: left;
+        width: 100%;
+        font-family: 'Lato', sans-serif;
+        border-bottom: 0.1px solid white;
+    }
+
+    .nonact,
+    .mob_about_btn:hover {
+        background: none;
+    }
+
+    .mob_about_btn::after {
+        content: '\002B';
+        float: right;
+        color: white;
+    }
+
+    .nonact::after {
+        content: '\2212';
+    }
+
+    .mobile_footer_pragrap {
+        padding: 0 10px;
+        background: none;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.2s ease-out;
+    }
+
+    .text_area_mob {
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+        line-height: 19px;
+        padding: 10px;
+        text-align: left;
+        color: white;
+    }
+
+    .blue_mobile_box {
+        width: 100%;
+        background: #9f2d91;
+        height: 100px;
+    }
+
+    /* -- === <<< == FOOTER END== >>> === -- */
+}

@@ -1,0 +1,21 @@
+/* <<< === LAPTOP :- 1025PX SCREEN SIZE === >>> */
+
+@media only screen and (max-width: 1025px) {
+
+    /* -- === == Header == === -- */
+    .header_logo {
+        width: 10%;
+    }
+
+    /* -- === == Header End == === -- */
+
+    /* -- === == Footer == === -- */
+    .footer_Location_box {
+        display: none;
+    }
+
+    .footer_bestvalue_box {
+        margin-left: 30px;
+    }
+    /* -- === == Footer End == === -- */
+}
